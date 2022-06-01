@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-01T12:40:06.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1523632700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Steps.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User should be able to register with valid data",
+        "description": "",
+        "id": "web-login;user-should-be-able-to-register-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 173580100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5477938800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Landing page is opened",
+            "match": {
+              "location": "StepDefinitions.Steps.landing_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2538592600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks the sign in button",
+            "match": {
+              "location": "StepDefinitions.Steps.the_user_clicks_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179267400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user enters valid email",
+            "match": {
+              "location": "StepDefinitions.Steps.the_user_enters_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4395363000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters valid info to register",
+            "match": {
+              "location": "StepDefinitions.Steps.user_enters_valid_info_to_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27802100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "succes message shown",
+            "match": {
+              "location": "StepDefinitions.Steps.succes_message_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Authentication"
+          }
+        ]
+      }
+    ],
+    "name": "Web login",
+    "description": "",
+    "id": "web-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/firstTest.feature",
+    "tags": []
+  }
+]
